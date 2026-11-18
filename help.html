@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Help | LanceFree</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%232c4a6b%27/%3E%3Ctext x=%2716%27 y=%2723%27 text-anchor=%27middle%27 font-size=%2720%27 font-family=%27Georgia%27 fill=%27white%27%3EL%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        if (localStorage.lf_theme === "dark") document.documentElement.dataset.t = "dark";
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="help">
+    <header>
+      <div class="w bar">
+        <a class="logo" href="index.html">LanceFree</a>
+        <form class="hs">
+          <input type="search" placeholder="Search for any service" aria-label="Search services" />
+        </form>
+        <div class="acts">
+          <a class="dk" href="seller.html">Become a seller</a>
+          <a class="dk" href="saved.html">Saved</a>
+          <span id="auth">
+            <a href="login.html">Sign in</a>
+            <a class="btn" href="register.html">Join</a>
+          </span>
+        </div>
+        <button class="mb" type="button" aria-expanded="false" aria-controls="sub">Menu</button>
+      </div>
+      <div class="sub" id="sub">
+        <nav class="w cats">
+          <a href="logo-design.html">Logo Design</a>
+          <a href="digital-marketing.html">Digital Marketing</a>
+          <a href="content-writing.html">Content Writing</a>
+          <a href="web-development.html">Web Development</a>
+          <a href="mobile-apps.html">Mobile Apps</a>
+          <a href="video-editing.html">Video Editing</a>
+          <a href="music-audio.html">Music & Audio</a>
+          <span class="sp"></span>
+          <a class="mo" href="seller.html">Become a seller</a>
+          <a class="mo" href="saved.html">Saved</a>
+          <a href="about.html">About</a>
+          <a href="help.html">Help</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="w phd">
+        <h1>How can we help?</h1>
+        <p class="lead">Find answers to common questions, or write to us.</p>
+        <form class="big">
+          <input id="hq" type="search" placeholder="Search help topics" aria-label="Search help" />
+        </form>
+      </section>
+      <section class="w sec">
+        <div class="g3">
+          <div>
+            <h3><button type="button" class="tp" data-q="account">Getting Started</button></h3>
+            <p class="mu">Learn the basics and get your account set up</p>
+          </div>
+          <div>
+            <h3><button type="button" class="tp" data-q="freelancer">For Freelancers</button></h3>
+            <p class="mu">Find projects, submit bids, and grow your career</p>
+          </div>
+          <div>
+            <h3><button type="button" class="tp" data-q="client">For Clients</button></h3>
+            <p class="mu">Post projects, hire talent, and manage work</p>
+          </div>
+          <div>
+            <h3><button type="button" class="tp" data-q="payment">Payments & Billing</button></h3>
+            <p class="mu">Understanding payments, fees, and invoices</p>
+          </div>
+          <div>
+            <h3><button type="button" class="tp" data-q="dispute">Safety & Security</button></h3>
+            <p class="mu">Keep your account and data secure</p>
+          </div>
+          <div>
+            <h3><button type="button" class="tp" data-q="browser">Technical Support</button></h3>
+            <p class="mu">Troubleshoot issues and technical problems</p>
+          </div>
+        </div>
+      </section>
+      <section class="w sec narrow">
+        <h2>Frequently asked questions</h2>
+        <div id="faqs">
+          <details name="faq">
+            <summary>How do I create an account?</summary>
+            <p>
+              Creating an account is simple! Click on "Join" in the navigation bar, choose whether
+              you're a freelancer or client, fill in your details, and verify your email. You'll be
+              ready to start in minutes!
+            </p>
+          </details>
+          <details name="faq">
+            <summary>What fees does LanceFree charge?</summary>
+            <p>
+              LanceFree charges a 10% service fee on all transactions for freelancers. Clients pay a
+              small processing fee of 3% per payment. These fees help us maintain the platform and
+              provide excellent support.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>How do I submit a bid on a project?</summary>
+            <p>
+              Browse available projects, click on one that interests you, review the requirements,
+              and click "Submit Proposal". Include your price, timeline, and a detailed explanation
+              of how you'll complete the project.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>How does the payment escrow system work?</summary>
+            <p>
+              When a project starts, the client deposits funds into escrow. The freelancer works on
+              the project, and upon completion and client approval, the funds are released. This
+              protects both parties.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>What if I have a dispute with a client/freelancer?</summary>
+            <p>
+              If you encounter issues, first try to resolve them through communication. If that
+              doesn't work, you can open a dispute through your contract page. Our support team will
+              review the case and help mediate a fair resolution.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>How can I improve my freelancer profile?</summary>
+            <p>
+              Add a professional photo, write a compelling bio, showcase your best work in your
+              portfolio, list all relevant skills, and maintain a high rating by delivering quality
+              work on time. Client reviews are crucial!
+            </p>
+          </details>
+          <details name="faq">
+            <summary>Can I work with clients from other countries?</summary>
+            <p>
+              Absolutely! LanceFree is a global platform. You can work with clients from over 180
+              countries. Payments are processed in USD, and we handle currency conversions
+              automatically.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>How long does it take to withdraw my earnings?</summary>
+            <p>
+              Once funds are released from escrow, you can withdraw them immediately. Depending on
+              your payment method (PayPal, bank transfer, etc.), it typically takes 1-5 business
+              days to reach your account.
+            </p>
+          </details>
+          <details name="faq">
+            <summary>Which browsers and image types are supported?</summary>
+            <p>
+              LanceFree works in current versions of Chrome, Firefox, Safari and Edge. Gig images
+              can be JPG, PNG or WebP, up to five per gig.
+            </p>
+          </details>
+        </div>
+        <p id="hnone" hidden>No answers found. Try another word, or email us.</p>
+      </section>
+      <section class="w sec">
+        <h2>Still need help?</h2>
+        <p>
+          Email
+          <a href="mailto:jatins0420@gmail.com">jatins0420@gmail.com</a>
+          and we will reply within 24 hours on business days.
+        </p>
+        <a class="btn" href="contact.html">Contact us</a>
+      </section>
+    </main>
+    <footer>
+      <div class="w fg">
+        <div>
+          <b>LanceFree</b>
+          <p>Freelance services for small businesses and independent professionals.</p>
+          <p>
+            Jatin Sharma
+            <br />
+            Mumbai, India
+            <br />
+            <a href="mailto:jatins0420@gmail.com">jatins0420@gmail.com</a>
+          </p>
+        </div>
+        <div>
+          <b>Categories</b>
+          <a href="logo-design.html">Logo Design</a>
+          <a href="digital-marketing.html">Digital Marketing</a>
+          <a href="content-writing.html">Content Writing</a>
+          <a href="web-development.html">Web Development</a>
+          <a href="mobile-apps.html">Mobile Apps</a>
+          <a href="video-editing.html">Video Editing</a>
+          <a href="music-audio.html">Music & Audio</a>
+        </div>
+        <div>
+          <b>Company</b>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="trust-safety.html">Trust and safety</a>
+        </div>
+        <div>
+          <b>Support</b>
+          <a href="help.html">Help</a>
+          <a href="services.html">Services</a>
+          <a href="seller.html">Become a seller</a>
+          <a href="saved.html">Saved</a>
+        </div>
+      </div>
+      <div class="w fb">
+        <span>© 2026 LanceFree. Mumbai, India.</span>
+        <button id="theme" type="button">Dark mode</button>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

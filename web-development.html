@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Web Development | LanceFree</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%232c4a6b%27/%3E%3Ctext x=%2716%27 y=%2723%27 text-anchor=%27middle%27 font-size=%2720%27 font-family=%27Georgia%27 fill=%27white%27%3EL%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        if (localStorage.lf_theme === "dark") document.documentElement.dataset.t = "dark";
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="cat">
+    <header>
+      <div class="w bar">
+        <a class="logo" href="index.html">LanceFree</a>
+        <form class="hs">
+          <input type="search" placeholder="Search for any service" aria-label="Search services" />
+        </form>
+        <div class="acts">
+          <a class="dk" href="seller.html">Become a seller</a>
+          <a class="dk" href="saved.html">Saved</a>
+          <span id="auth">
+            <a href="login.html">Sign in</a>
+            <a class="btn" href="register.html">Join</a>
+          </span>
+        </div>
+        <button class="mb" type="button" aria-expanded="false" aria-controls="sub">Menu</button>
+      </div>
+      <div class="sub" id="sub">
+        <nav class="w cats">
+          <a href="logo-design.html">Logo Design</a>
+          <a href="digital-marketing.html">Digital Marketing</a>
+          <a href="content-writing.html">Content Writing</a>
+          <a href="web-development.html">Web Development</a>
+          <a href="mobile-apps.html">Mobile Apps</a>
+          <a href="video-editing.html">Video Editing</a>
+          <a href="music-audio.html">Music & Audio</a>
+          <span class="sp"></span>
+          <a class="mo" href="seller.html">Become a seller</a>
+          <a class="mo" href="saved.html">Saved</a>
+          <a href="about.html">About</a>
+          <a href="help.html">Help</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="w crumb">
+        <a href="index.html">LanceFree</a>
+        / Programming & Tech / Web Development
+      </div>
+      <section class="w phd">
+        <h1>Professional Web Development Services</h1>
+        <p class="lead">
+          Build a fast, modern, and responsive website tailored to your business needs. Work with
+          skilled developers dedicated to delivering high-quality results.
+        </p>
+      </section>
+      <div class="w lay">
+        <aside>
+          <details class="flt" open>
+            <summary>Filters</summary>
+            <label>
+              Min price ($)
+              <input type="number" id="pmin" min="0" />
+            </label>
+            <label>
+              Max price ($)
+              <input type="number" id="pmax" min="0" />
+            </label>
+            <fieldset>
+              <legend>Seller level</legend>
+              <label class="ck">
+                <input type="checkbox" class="lv" value="Top Rated" />
+                Top Rated Seller
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="lv" value="Level 2" />
+                Level 2 Seller
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="lv" value="Level 1" />
+                Level 1 Seller
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Web Development</legend>
+              <label class="ck">
+                <input type="checkbox" class="sty" value="business website" />
+                Business Website
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="sty" value="e-commerce website" />
+                E-commerce Website
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="sty" value="portfolio website" />
+                Portfolio Website
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="sty" value="landing page" />
+                Landing Page
+              </label>
+              <label class="ck">
+                <input type="checkbox" class="sty" value="blog / news website" />
+                Blog / News Website
+              </label>
+            </fieldset>
+          </details>
+        </aside>
+        <section>
+          <div class="rh">
+            <span id="cnt">6 services</span>
+            <label>
+              Sort
+              <select id="sort">
+                <option value="">Relevance</option>
+                <option value="r">Rating</option>
+                <option value="a">Price: low to high</option>
+                <option value="d">Price: high to low</option>
+              </select>
+            </label>
+          </div>
+          <div class="grid" id="grid">
+            <article
+              class="gig"
+              data-id="web-development-0"
+              data-k="i will design a modern minimalist website for your brand professional web development with unlimited revisions and source files included."
+              data-p="45"
+              data-lv="Level 2"
+              data-r="5.0"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-0.jpg"
+                  alt="I will design a modern minimalist website for your brand"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+                <span class="bd">Best Seller</span>
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=johndev">johndev</a>
+                  · Level 2
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-0">
+                    I will design a modern minimalist website for your brand
+                  </a>
+                </h3>
+                <p>
+                  Professional Web Development with unlimited revisions and source files included.
+                </p>
+                <div class="gf">
+                  <span>★ 5.0 (2.4k)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $45</b>
+                </div>
+              </div>
+            </article>
+            <article
+              class="gig"
+              data-id="web-development-1"
+              data-k="i will create a unique web with 3 concepts and revisions get 3 unique concepts to choose from with unlimited revisions until perfect."
+              data-p="65"
+              data-lv="Top Rated"
+              data-r="4.9"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-1.jpg"
+                  alt="I will create a unique Web with 3 concepts and revisions"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+                <span class="bd">Top Rated</span>
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=ShivayCodeX">ShivayCodeX</a>
+                  · Top Rated
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-1">
+                    I will create a unique Web with 3 concepts and revisions
+                  </a>
+                </h3>
+                <p>Get 3 unique concepts to choose from with unlimited revisions until perfect.</p>
+                <div class="gf">
+                  <span>★ 4.9 (1.8k)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $65</b>
+                </div>
+              </div>
+            </article>
+            <article
+              class="gig"
+              data-id="web-development-2"
+              data-k="i will design a luxury application for premium brands high-end app for luxury brands with premium quality and elegance."
+              data-p="85"
+              data-lv="Level 2"
+              data-r="5.0"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-2.jpg"
+                  alt="I will design a luxury Application for premium brands"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=JOYpixel">JOYpixel</a>
+                  · Level 2
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-2">
+                    I will design a luxury Application for premium brands
+                  </a>
+                </h3>
+                <p>High-end App for luxury brands with premium quality and elegance.</p>
+                <div class="gf">
+                  <span>★ 5.0 (956)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $85</b>
+                </div>
+              </div>
+            </article>
+            <article
+              class="gig"
+              data-id="web-development-3"
+              data-k="i will develop a modern, responsive website high-quality websites with clean design, fast performance, and fully responsive layouts."
+              data-p="55"
+              data-lv="Level 1"
+              data-r="4.8"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-3.jpg"
+                  alt="I will develop a modern, responsive website"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=AkashCreates">AkashCreates</a>
+                  · Level 1
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-3">
+                    I will develop a modern, responsive website
+                  </a>
+                </h3>
+                <p>
+                  High-quality websites with clean design, fast performance, and fully responsive
+                  layouts.
+                </p>
+                <div class="gf">
+                  <span>★ 4.8 (742)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $55</b>
+                </div>
+              </div>
+            </article>
+            <article
+              class="gig"
+              data-id="web-development-4"
+              data-k="i will build a professional business website a fully functional, seo-friendly business website designed to boost credibility and drive conversions."
+              data-p="75"
+              data-lv="Top Rated"
+              data-r="4.9"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-4.jpg"
+                  alt="I will build a professional business website"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+                <span class="bd">Express</span>
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=jaygraphics">jaygraphics</a>
+                  · Top Rated
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-4">
+                    I will build a professional business website
+                  </a>
+                </h3>
+                <p>
+                  A fully functional, SEO-friendly business website designed to boost credibility
+                  and drive conversions.
+                </p>
+                <div class="gf">
+                  <span>★ 4.9 (1.2k)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $75</b>
+                </div>
+              </div>
+            </article>
+            <article
+              class="gig"
+              data-id="web-development-5"
+              data-k="i will develop a full-stack website with modern technologies custom front-end and back-end development with clean code, fast performance, and scalable architecture."
+              data-p="70"
+              data-lv="Level 2"
+              data-r="5.0"
+            >
+              <div class="ph">
+                <img
+                  src="gig-web-development-5.jpg"
+                  alt="I will develop a full-stack website with modern technologies"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gb">
+                <p class="mu">
+                  <a href="freelancer.html?u=davidkreativ">davidkreativ</a>
+                  · Level 2
+                </p>
+                <h3>
+                  <a href="gig.html?id=web-development-5">
+                    I will develop a full-stack website with modern technologies
+                  </a>
+                </h3>
+                <p>
+                  Custom front-end and back-end development with clean code, fast performance, and
+                  scalable architecture.
+                </p>
+                <div class="gf">
+                  <span>★ 5.0 (834)</span>
+                  <button class="fav" type="button" aria-pressed="false">Save</button>
+                  <b>From $70</b>
+                </div>
+              </div>
+            </article>
+          </div>
+          <p id="none" hidden>No services match these filters. Adjust the price or seller level.</p>
+        </section>
+      </div>
+      <section class="w sec">
+        <h2>Why Choose Our Web Developers?</h2>
+        <div class="g3">
+          <div>
+            <h3>Modern & Clean Design</h3>
+            <p>
+              Get visually appealing and user-friendly websites crafted with the latest UI/UX trends
+              to enhance user engagement.
+            </p>
+          </div>
+          <div>
+            <h3>Fast Delivery</h3>
+            <p>
+              Quick turnaround times on website development—from landing pages to full business
+              sites—without compromising quality.
+            </p>
+          </div>
+          <div>
+            <h3>Custom Functionality</h3>
+            <p>
+              Whether it's dynamic features, dashboards, or integrations, our developers build
+              custom solutions tailored to your needs.
+            </p>
+          </div>
+          <div>
+            <h3>Fully Responsive</h3>
+            <p>
+              Your website will look perfect on all devices—mobile, tablet, and desktop—ensuring the
+              best possible user experience.
+            </p>
+          </div>
+          <div>
+            <h3>Affordable Pricing</h3>
+            <p>
+              High-quality website development that suits every budget. Choose from multiple
+              packages based on your requirements.
+            </p>
+          </div>
+          <div>
+            <h3>Satisfaction Guaranteed</h3>
+            <p>
+              We provide revisions and ongoing support to ensure your website meets your
+              expectations perfectly.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="w sec">
+        <h2>Popular Web Development Packages</h2>
+        <div class="g3">
+          <div class="pkg">
+            <h3>Basic</h3>
+            <p class="price">$45</p>
+            <p class="mu">3 Days Delivery</p>
+            <ul>
+              <li>1-Page Website</li>
+              <li>Mobile Responsive Design</li>
+              <li>Basic Contact Form</li>
+              <li>Fast Loading Speed</li>
+              <li>Free Support for 7 Days</li>
+            </ul>
+            <button
+              type="button"
+              class="btn o ord"
+              data-t="Web Development"
+              data-pk="Basic"
+              data-pr="$45"
+              data-dl="3 Days Delivery"
+            >
+              Order Basic
+            </button>
+          </div>
+          <div class="pkg feat">
+            <h3>Standard</h3>
+            <p class="price">$85</p>
+            <p class="mu">2 Days Delivery</p>
+            <ul>
+              <li>5-Page Professional Website</li>
+              <li>Unlimited Revisions</li>
+              <li>Fully Responsive (Mobile + Tablet + Desktop)</li>
+              <li>Custom Contact Forms & Basic Integrations</li>
+              <li>SEO-Friendly Structure</li>
+              <li>Speed Optimization</li>
+            </ul>
+            <button
+              type="button"
+              class="btn o ord"
+              data-t="Web Development"
+              data-pk="Standard"
+              data-pr="$85"
+              data-dl="2 Days Delivery"
+            >
+              Order Standard
+            </button>
+          </div>
+          <div class="pkg">
+            <h3>Premium</h3>
+            <p class="price">$150</p>
+            <p class="mu">1 Day Delivery</p>
+            <ul>
+              <li>Full Custom Website (Up to 10 Pages)</li>
+              <li>Unlimited Revisions</li>
+              <li>Advanced Functionality (Blog, Booking, Dashboard, etc.)</li>
+              <li>E-Commerce Integration (Up to 20 Products)</li>
+              <li>Complete On-Page SEO Optimization</li>
+              <li>Security Setup (SSL, Anti-Spam, Basic Firewall)</li>
+              <li>Full Website Training & Documentation</li>
+            </ul>
+            <button
+              type="button"
+              class="btn o ord"
+              data-t="Web Development"
+              data-pk="Premium"
+              data-pr="$150"
+              data-dl="1 Day Delivery"
+            >
+              Order Premium
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="w sec narrow">
+        <h2>Frequently asked questions</h2>
+        <details name="faq">
+          <summary>What technologies do you use for web development?</summary>
+          <p>
+            We use modern technologies such as HTML, CSS, JavaScript, React, Node.js, PHP, and
+            WordPress depending on your project needs. You can request a specific tech stack as
+            well.
+          </p>
+        </details>
+        <details name="faq">
+          <summary>How long does it take to build a website?</summary>
+          <p>
+            Delivery time depends on the package and project complexity. Basic websites take 2–5
+            days, Standard packages may take 5–7 days, and Premium websites may require 7–14 days
+            for advanced features.
+          </p>
+        </details>
+        <details name="faq">
+          <summary>Can I request revisions?</summary>
+          <p>
+            Yes! Most packages include multiple revisions. Standard and Premium packages often
+            include unlimited revisions to ensure you're completely satisfied with the final design.
+          </p>
+        </details>
+        <details name="faq">
+          <summary>Will my website be mobile-friendly?</summary>
+          <p>
+            Absolutely. All websites we build are fully responsive and work perfectly on mobile,
+            tablet, and desktop devices.
+          </p>
+        </details>
+        <details name="faq">
+          <summary>Do you provide hosting or domain?</summary>
+          <p>
+            Hosting and domain are not included, but we can guide you to the best providers and even
+            help set them up if needed.
+          </p>
+        </details>
+        <details name="faq">
+          <summary>Do you provide hosting or domain?</summary>
+          <p>
+            We will need your business name, website purpose, preferred style, features you want,
+            content (text/images), and reference websites if available. More details help us build
+            exactly what you want.
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <div class="w fg">
+        <div>
+          <b>LanceFree</b>
+          <p>Freelance services for small businesses and independent professionals.</p>
+          <p>
+            Jatin Sharma
+            <br />
+            Mumbai, India
+            <br />
+            <a href="mailto:jatins0420@gmail.com">jatins0420@gmail.com</a>
+          </p>
+        </div>
+        <div>
+          <b>Categories</b>
+          <a href="logo-design.html">Logo Design</a>
+          <a href="digital-marketing.html">Digital Marketing</a>
+          <a href="content-writing.html">Content Writing</a>
+          <a href="web-development.html">Web Development</a>
+          <a href="mobile-apps.html">Mobile Apps</a>
+          <a href="video-editing.html">Video Editing</a>
+          <a href="music-audio.html">Music & Audio</a>
+        </div>
+        <div>
+          <b>Company</b>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="trust-safety.html">Trust and safety</a>
+        </div>
+        <div>
+          <b>Support</b>
+          <a href="help.html">Help</a>
+          <a href="services.html">Services</a>
+          <a href="seller.html">Become a seller</a>
+          <a href="saved.html">Saved</a>
+        </div>
+      </div>
+      <div class="w fb">
+        <span>© 2026 LanceFree. Mumbai, India.</span>
+        <button id="theme" type="button">Dark mode</button>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
